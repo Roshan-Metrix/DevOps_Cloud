@@ -2,6 +2,18 @@
 
 This repository contains resources and guidance for implementing a Jenkins-based CI/CD pipeline.
 
+## Folder Structure
+
+```text
+Jenkins/
+`-- README.md
+```
+
+## Click To Navigate
+
+- [Jenkins/README.md](README.md)
+- [Back to repository README](../README.md)
+
 ## Overview
 
 Jenkins is an open-source automation server used to build, test, and deploy software. A Jenkins CI/CD pipeline automates the steps from code commit to production deployment.
@@ -19,6 +31,7 @@ Key concepts:
 4. Artifact: Publish artifacts to a repository (Nexus, Artifactory).
 5. Deploy: Deploy to environments (staging, production) using tools like Ansible, Helm, Terraform, or kubectl.
 6. Notify: Send build/deploy notifications to Slack, email, or other channels.
+
 ## Example Jenkinsfile (Declarative)
 
 ```groovy
